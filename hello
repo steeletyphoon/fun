@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-var c = require{skilstak.colors};
+var c = require("skilstak-colors");
 
 
 'use strict'
 
-console.log(c.clear + c.multi + "Hello")
+console.log(c.clear + c.multi("Hello"))
